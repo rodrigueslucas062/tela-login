@@ -153,7 +153,7 @@ body {
 }
 
 .content .right-content {
-  background-image: url('Users/tyran/Documents/Code/tela-login/img/fundo.jpg');
+  background-image: url('.img/fundo.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
