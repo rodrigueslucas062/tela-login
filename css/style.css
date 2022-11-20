@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Rokkitt:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #FAEBEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  overflow: hidden;
+  width: 1057px;
+  height: 708px;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .left-content {
+  background: white;
+  width: 608px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.content .left-content h1 {
+  font-family: 'Rokkitt', serif;
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+
+.content .left-content span {
+  font-family: 'Mulish', sans-serif;
+  color: #161843;
+}
+
+.content .left-content .title-section {
+  width: 100%;
+  padding: 10% 15%;
+}
+
+.content .left-content .input-section {
+  width: 90%;
+  padding: 0 15%;
+}
+
+.content .left-content .input-section input {
+  width: 70%;
+  padding: 30px 25px;
+  border: 1px solid #CAD6E4;
+  border-radius: 5px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+}
+
+.content .left-content .input-section input::placeholder {
+  color: #717A90;
+}
+
+.content .left-content .input-section div {
+  width: 79%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.content .left-content .input-section div a {
+  color: #0C6787;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.content .left-content .input-section div button {
+  width: 157px;
+  height: 73px;
+  background: #046586;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2.5px 4px 1px rgba(4, 101, 134, .65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .left-content .input-section div button img {
+  margin-left: 15px;
+}
+
+.content .left-content .input-section hr {
+  margin-top: 60px; 
+}
+
+.content .left-content .social-newtorks-section {
+  width: 70%;
+  padding: 0 15%;
+}
+
+.content .left-content .social-newtorks-section center {
+  margin: 30px 0;
+}
+
+.content .left-content .social-newtorks-section center span {
+  color: #838A9E;
+}
+
+.content .left-content .social-newtorks-section .login-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .left-content .social-newtorks-section .login-options .facebook,
+.content .left-content .social-newtorks-section .login-options .google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border: 1px solid #CAD6E4;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+.content .left-content .social-newtorks-section .login-options .facebook span,
+.content .left-content .social-newtorks-section .login-options .google span {
+  margin-left: 10px;
+}
+
+.content .left-content .social-newtorks-section span,
+.content .left-content .social-newtorks-section a {
+  font-family: 'Mulish', sans-serif;
+}
+
+.content .left-content .social-newtorks-section a {
+  text-decoration: underline;
+  color: #046586;
+}
+
+.content .right-content {
+  background-image: url('Users/tyran/Documents/Code/tela-login/img/fundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 449px;
+  height: 100%;
+}
+
+.content .right-content .close-button {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 100%;
+  margin: 15px;
+  float: right;
+}
+
+.content .right-content .close-button img {
+  width: 28px;
+}
